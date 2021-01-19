@@ -7,8 +7,8 @@ This repo includes the implementation of physics-informed neural networks in pap
 [Chengping Rao, Hao Sun and Yang Liu. Physics informed deep learning for computational elastodynamics without labeled data.](https://arxiv.org/abs/2006.08472)
 
 # Description for each folder
-- **PlateHoleQuarter**: Training script and dataset for plate with a hole (stress concentration) problem;
-- **ElasticWaveInfinite**: Training script and dataset for elastic wave propagation in infinite domain (to be uploaded);
+- **PlateHoleQuarter**: Training script and dataset for plate with a hole (stress concentration) problem in Sec 3.1;
+- **ElasticWaveInfinite**: Training script and dataset for elastic wave propagation in infinite domain in Sec 3.2;
 
 
 # Results overview
@@ -17,13 +17,6 @@ This repo includes the implementation of physics-informed neural networks in pap
 
 > Defected plate under cyclic load (top: PINN; bottom: FEM.)
 
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 ![](https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/GIF_uv.gif)
 <!-- <img src="https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/color_map_uv.png" width="200" class="center"> -->
