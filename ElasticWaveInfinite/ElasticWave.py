@@ -446,7 +446,7 @@ def postProcess(xmin, xmax, ymin, ymax, field=[], s=12, num=0):
     # cf.cmap.set_over('black')
     ax[0, 0].set_title(r'$u$-PINN', fontsize=22)
     # cbar = fig.colorbar(cf, orientation='horizontal', ax=ax[0, 0], fraction=0.046, pad=0.04)
-    cbar.ax.tick_params(labelsize=18)
+    # cbar.ax.tick_params(labelsize=18)
 
     cf = ax[1, 0].scatter(x_star, y_star, c=u_star, alpha=0.9, edgecolors='none', cmap='seismic', marker='o', s=s, vmin=-1.1, vmax=1.1)
     ax[1, 0].axis('square')
@@ -737,6 +737,7 @@ if __name__ == "__main__":
         config.gpu_options.allow_growth = True
         session = tf.Session(config=config)
 
+        ## Load network if networks are provided
         # model = DeepHPM(XYT_c, SRC, IC, UP, uv_layers, lb, ub)
         model = DeepHPM(XYT_c, SRC, IC, UP, uv_layers, lb, ub, ExistModel=1, modelDir='uv_NN_10s.pickle')
 
