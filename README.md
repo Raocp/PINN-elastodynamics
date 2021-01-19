@@ -19,7 +19,7 @@ This repo includes the implementation of physics-informed neural networks in pap
 > Defected plate under cyclic load (top: PINN; bottom: FEM.)
 
 
-<! --![](https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/GIF_uv.gif) -->
+<!--![](https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/GIF_uv.gif) -->
 <img src="https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/GIF_uv.gif" width="500" />
 <!-- <img src="https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveInfinite/results/color_map_uv.png" width="200" class="center"> -->
 > Elastic wave propagation in infinite (unbounded) domain (top: PINN; bottom: FEM.)
