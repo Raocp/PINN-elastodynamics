@@ -12,9 +12,9 @@ This repo includes the implementation of physics-informed neural networks in pap
 
 # Results overview
 
-![](https://github.com/Raocp/PINN-laminar-flow/blob/master/PINN_steady/uvp.png)
+![](https://github.com/Raocp/PINN-elastodynamics/blob/master/PlateHoleQuarter/results/GIF_stress.gif)
 
-> Defected plate under cyclic load (top: ; bottom: )
+> Defected plate under cyclic load (top: PINN; bottom: FEM.)
 
 
 
