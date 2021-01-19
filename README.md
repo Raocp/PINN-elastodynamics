@@ -8,6 +8,7 @@ This repo includes the implementation of physics-informed neural networks in pap
 
 # Description for each folder
 - **PlateHoleQuarter**: Training script and dataset for plate with a hole (stress concentration) problem;
+- **ElasticWaveInfinite**: Training script and dataset for elastic wave propagation in infinite domain (to be uploaded);
 
 
 # Results overview
@@ -16,6 +17,9 @@ This repo includes the implementation of physics-informed neural networks in pap
 
 > Defected plate under cyclic load (top: PINN; bottom: FEM.)
 
+![](https://github.com/Raocp/PINN-elastodynamics/blob/master/PlateHoleQuarter/results/GIF_stress.gif)
+
+> Elastic wave propagation in infinite (unbounded) domain (top: PINN; bottom: FEM.)
 
 
 # Note
