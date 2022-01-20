@@ -27,7 +27,11 @@ This repo includes the implementation of physics-informed neural networks in pap
 > Elastic wave propagation in infinite (unbounded) domain (top: PINN; bottom: FEM.)
 
 <img src="https://github.com/Raocp/PINN-elastodynamics/blob/master/ElasticWaveConfined/GIF_uv.gif" width="500" />
+
 > Elastic wave propagation in confined domain (top: PINN; bottom: FEM.)
+
+
+> Elastic wave propagation in semi-infinite (half-bounded) domain (top: PINN; bottom: FEM.)
 
 
 # Note
