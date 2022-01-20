@@ -10,6 +10,7 @@ This repo includes the implementation of physics-informed neural networks in pap
 - **PlateHoleQuarter**: Training script and dataset for plate with a hole (stress concentration) problem in Sec 3.1;
 - **ElasticWaveInfinite**: Training script and dataset for elastic wave propagation in infinite domain in Sec 3.2; 
 - **ElasticWaveConfined**: Training script and dataset for elastic wave propagation in confined (4 edges fixed) domain in Sec 3.2. 
+- **ElasticWaveSemiInfinite**: Training script and dataset for elastic wave propagation in semi-infinite (top is traction-free) domain in Sec 3.2. 
 
 
 # Results overview
